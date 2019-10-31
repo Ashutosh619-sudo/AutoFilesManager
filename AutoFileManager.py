@@ -2,18 +2,19 @@ import os
 import shutil
 
 data = {"img" : [".png", ".jpeg", ".jpg",".webp"], 
-    "doc": [".doc", ".docx", ".pdf"],
+    "doc": [".doc", ".docx", ".pdf",".xls"],
     "setup":[".exe",".msi"],
     "Webpages": [".html"],
     "Videos" : [".mp4"],
     "Prensentation": [".ppt", ".pptx"],
     "Excel sheet" : [".xlsx"],
     "Music" : [".mp3", ".wav"],
-    "Zip" : [".zip"],
+    "Zip" : [".zip",".rar", ".7zip"],
     "Torrent" : [".torrent"]
+    "Languages" : [".py",".js",".cs",".java",".c",".cpp",".ts",".php"]
     }    
 
-
+# Please change the directory path based on your system path
 os.chdir(r'C:\Users\abhie\Downloads')
 cwd = os.chdir(r'C:\Users\abhie\Downloads')
 
